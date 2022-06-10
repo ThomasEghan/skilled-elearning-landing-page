@@ -89,7 +89,7 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 
 }
 
 h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serifS;
     font-size: 47px;
 }
 
@@ -148,34 +148,32 @@ h3{
 }
 
 
-/* @media (max-width: 820px) {
+    @media (max-width: 820px) {
     body{
         background-image: url(./assets/image-hero-tablet.png);
         background-repeat: no-repeat;
-        background-position: top -90px left 420px;
+        background-position: top -97px right -290px;
     }
 
-    .maximize-skill{ */
-        /* max-width: 60.5%; */
-        /* height: 50vh;
+    .maximize-skill{ 
+         height: 50vh;
+         max-width: 50%;
     }
+
 
     .content-1{
-        font-size: 15px;
+        font-size: 17px;
     }
 
-    .h1{
-        font-size: 12px;
-    } */
-/* 
-    .h2{
-        font-size: 6px;
-        max-width: 200px;
-    } */
-    /* .box{
-
+    h1{
+        font-size: 38px;
     }
-
+ 
+    h2{
+        font-size: 28px;
+        padding-top: 39px;
+    } 
+  
     .rectangle{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -189,7 +187,7 @@ header, .maximize-skill, .rectangle, footer {
 }
 
 .paragraph{
-    max-width: 300%;
+    max-width: 90%;
 }
 
-} */
+} 
