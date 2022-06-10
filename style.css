@@ -61,7 +61,7 @@ header, .maximize-skill, .rectangle, footer {
 
 .second-button{
     width: 167px;
-    height: 56px;
+    height: 50px;
     font-size: 18px;
     border: none;
     border-radius: 100px;
@@ -191,7 +191,7 @@ header, .maximize-skill, .rectangle, footer {
 
 } 
 
-@media (max-width: 390px){
+@media (max-width: 500px){
     body{
         background-image: url(./assets/image-hero-mobile.png);
         background-position:  top 350px center ;
