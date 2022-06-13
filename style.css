@@ -13,9 +13,9 @@ header {
 
  .skilled{
 font-size: 46px;
-font-weight:bold ;
 font-family: Arial, Helvetica, sans-serif;
 color: #13183f;
+font-weight: bold;
 }
 
 .first-button {
@@ -38,19 +38,21 @@ color: #13183f;
 .maximize-skill{
     color: #83869a;
     font-size: 30px;
-     max-width:40%; 
-     height: 80vh;
+     height: 70vh;
      flex-direction: column;
      justify-content: center;
 } 
 
 .content-1{
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 31%;
+    font-size: 18px;
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
     color: #13183f;
+    max-width: 50%;
 } 
 
 header, .maximize-skill, .rectangle, footer {
@@ -154,16 +156,18 @@ h3{
 
     .maximize-skill{ 
          height: 40vh;
-         max-width: 50%;
+         max-width: 100%;
     }
 
 
     .content-1{
         font-size: 18px;
+        max-width: 60%;
     }
 
     h1{
         font-size: 50px;
+        max-width: 75%;
     }
 
     header{
@@ -197,10 +201,12 @@ header, .maximize-skill, .rectangle, footer {
 
 
 
+
+
 @media (max-width: 500px){
     body{
         background-image: url(./assets/image-hero-mobile.png);
-        background-position:  top 550px center ;
+        background-position:  top 450px center ;
     }
 
     
@@ -217,19 +223,21 @@ header{
     grid-template-columns: repeat(1,1fr);
     gap: 3vw;
     margin-block: 5vh;
-    margin-top: 20px;
+
     }
 
     .maximize-skill{ 
-         max-width: 80%; 
+         height: 30vh;
    }
 
    .content-1{
-       font-size: 20px;
+       font-size: 16px;
+       max-width: 100%;
    }
 
    h1{
-       font-size: 48px;
+       font-size: 50px;
+       max-width: 100%;
    }
 
    h2{
