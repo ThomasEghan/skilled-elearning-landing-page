@@ -81,22 +81,24 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 
      font-size: 18px;
      line-height: 1.5;
      width: 95%;
+     padding-left: 10px;
 }
 
 .get-started{
     color:#f02aa6;
+    padding-left: 10px;
 }
 
   h2{
     font-size: 32px;
-    padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
     color: #ffffff;
 } 
 
 h3{
     color: #13183f;
     font-size: 24px;
+    padding-left: 10px;
 }
    
 .rectangle{
@@ -163,14 +165,14 @@ transform: translateY(-50%);
     body{
         background-image: url(./assets/image-hero-tablet.png);
         background-repeat: no-repeat;
-        background-position: top -97px right -290px;
+        background-position: top -70px right -290px;
     }
 
     .maximize-skill{ 
-         height: 40vh;
-         max-width: 100%;
+         margin-top:105px ;
+         gap: 2rem;
+         height: 35vh;
     }
-
 
     .content-1{
         font-size: 18px;
@@ -188,14 +190,15 @@ transform: translateY(-50%);
  
     h2{
         font-size: 28px;
-        padding-top: 39px;
     } 
   
     .rectangle{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 5vw;
-    margin-block: 5vh;
+    gap: 5rem 1rem;
+    margin-top: 8vh;
+    padding-bottom: 8vh;
     }
 
 
