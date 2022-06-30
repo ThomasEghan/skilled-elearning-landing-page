@@ -84,32 +84,29 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 
      font-size: 18px;
      line-height: 1.5;
      width: 95%;
-     padding-left: 10px;
 }
 
 .get-started{
     color:#f02aa6;
-    padding-left: 10px;
 }
 
   h2{
     font-size:clamp(1.25rem,2.5rem,4rem);
-    /* padding-left: 10px; */
     color: #ffffff;
+    width: 100%;
 } 
 
 h3{
     color: #13183f;
     font-size: 24px;
-    padding-left: 10px;
 }
    
 .rectangle{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 4rem 2rem;
-    /* margin-top: 20vh; */
-    /* padding-bottom: 20vh; */
+    margin-top: 30vh;
+    padding-bottom: 15vh;
     background-color: rgba(131, 134, 154, 0.05);
  } 
 
@@ -143,8 +140,6 @@ transform: translateY(-50%);
 
 .button{
     padding: 1rem 1.5rem;
-    /* height: 56px; */
-    /* width: 167px; */
     border-radius: 100px;
     background: linear-gradient( 180deg, #4851ff 0%, #f02aa6 100%);
     border: none;
@@ -156,7 +151,6 @@ transform: translateY(-50%);
 
 }
 .footer-skill{
-    font-weight: bold;
     font-size: 30px;
 } 
 
@@ -209,6 +203,16 @@ header, .maximize-skill, .rectangle, footer {
     padding-inline: 5%;
 }
 
+h3 , .get-started, .paragraph{
+    padding-left: 20px;
+}
+
+.logo{
+    position: absolute;
+    margin-left:20px;
+    transform: translateY(-50%);
+}
+
 .paragraph{
     max-width: 90%;
 }
@@ -241,7 +245,7 @@ header{
 .rectangle{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin-top: 25rem;
+    margin-top: 28rem;
     gap: 4rem 1rem;
     }
 
@@ -257,7 +261,7 @@ header{
 
    h1{
        font-size: 35px;
-       max-width: 82%;
+       max-width: 100%;
    }
 
    h2{
@@ -265,5 +269,19 @@ header{
     padding-top:0px;
 
    }
+
+   .box{
+    padding: 1.5rem 2rem;
+    gap: 1rem;
+   }
+
+   .logo{
+    position: absolute;
+    margin-left: -8px;
+    transform: translateY(-30%);
+     }
+     h3 , .get-started, .paragraph{
+        padding-left: 0px;
+    }
 
 } 
