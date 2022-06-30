@@ -12,7 +12,6 @@
     background-image: url(./assets/image-hero-desktop.png);
     background-repeat: no-repeat;
     background-position: top -150px right -340px;
-    /* background-size: 80%; */
 }
 
 header {
@@ -63,8 +62,6 @@ header, .maximize-skill, .rectangle, footer {
 }
 
 .second-button{
-    /* width: 167px;
-    height: 63px; */
     padding: 1rem 1.5rem;
     align-self: flex-start;
     font-size: 18px;
@@ -99,6 +96,10 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 
 h3{
     color: #13183f;
     font-size: 24px;
+}
+
+h3 , .get-started, .paragraph{
+    padding-left: 10px;
 }
    
 .rectangle{
@@ -224,7 +225,7 @@ h3 , .get-started, .paragraph{
 @media (max-width: 500px){
     body{
         background-image: url(./assets/image-hero-mobile.png);
-        background-position:  top 423px center ;
+        background-position:  top 380px center ;
         background-size: 100%;
     }
 
@@ -245,7 +246,7 @@ header{
 .rectangle{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    margin-top: 28rem;
+    margin-top: 25rem;
     gap: 4rem 1rem;
     }
 
@@ -278,7 +279,7 @@ header{
    .logo{
     position: absolute;
     margin-left: -8px;
-    transform: translateY(-30%);
+    transform: translateY(-25%);
      }
      h3 , .get-started, .paragraph{
         padding-left: 0px;
