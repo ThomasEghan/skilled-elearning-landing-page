@@ -12,6 +12,7 @@
     background-image: url(./assets/image-hero-desktop.png);
     background-repeat: no-repeat;
     background-position: top -150px right -340px;
+    background-size: 80%;
 }
 
 header {
@@ -62,8 +63,10 @@ header, .maximize-skill, .rectangle, footer {
 }
 
 .second-button{
-    width: 167px;
-    height: 63px;
+    /* width: 167px;
+    height: 63px; */
+    padding: 1rem 1.5rem;
+    align-self: flex-start;
     font-size: 18px;
     border: none;
     border-radius: 100px;
@@ -139,8 +142,9 @@ transform: translateY(-50%);
 }
 
 .button{
-    height: 56px;
-    width: 167px;
+    padding: 1rem 1.5rem;
+    /* height: 56px; */
+    /* width: 167px; */
     border-radius: 100px;
     background: linear-gradient( 180deg, #4851ff 0%, #f02aa6 100%);
     border: none;
@@ -195,7 +199,6 @@ transform: translateY(-50%);
     .rectangle{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 5vw;
     gap: 5rem 1rem;
     margin-top: 8vh;
     padding-bottom: 8vh;
@@ -214,51 +217,42 @@ header, .maximize-skill, .rectangle, footer {
 
 
 
-
-
-
-
 @media (max-width: 500px){
     body{
         background-image: url(./assets/image-hero-mobile.png);
-        background-position:  top 320px center ;
+        background-position:  top 423px center ;
+        background-size: 100%;
     }
 
     
 header, .maximize-skill, .rectangle, footer {
-    padding-inline: 2%;
+    padding-inline: 5%;
 }
 
 header{
     height:10vh;
 }
 
-.skilled{
-    font-size: 28px;
-    font-weight: bold;
-}
-
 .first-button{
     width: 140px;
     height: 48px;
-
 }
 
 .rectangle{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    gap: 3vw;
-    margin-block: 5vh;
-
+    margin-top: 25rem;
+    gap: 4rem 1rem;
     }
 
     .maximize-skill{ 
-         height: 30vh;
+         margin-top: 38px;
+         gap: 1rem;
    }
 
    .content-1{
-       font-size: 17px;
-       max-width: 90%;
+       font-size: 16px;
+       max-width: 95%;
    }
 
    h1{
@@ -270,19 +264,6 @@ header{
     padding-bottom: 0px;
     padding-top:0px;
 
-   }
-
-   .box{
-    padding-top: 0%;
-    padding-bottom: 0%;
-   }
-
-   .logo, h3 , .paragraph , .get-started{
-    margin-left: 25px;
-   }
-
-   .rectangle{
-    margin-top: 400px;
    }
 
 } 
