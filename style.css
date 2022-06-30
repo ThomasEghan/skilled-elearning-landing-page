@@ -12,7 +12,7 @@
     background-image: url(./assets/image-hero-desktop.png);
     background-repeat: no-repeat;
     background-position: top -150px right -340px;
-    background-size: 80%;
+    /* background-size: 80%; */
 }
 
 header {
@@ -39,7 +39,7 @@ header {
 }
 
 .maximize-skill{
-     height: 70vh;
+     /* height: 70vh; */
      display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -55,7 +55,7 @@ header {
 h1{
     color: #13183f;
     max-width: 50%;
-    font-size: 56px;
+    font-size: clamp(1.25rem,4vw,5rem);
 } 
 
 header, .maximize-skill, .rectangle, footer {
@@ -93,8 +93,8 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 
 }
 
   h2{
-    font-size: 32px;
-    padding-left: 10px;
+    font-size:clamp(1.25rem,2.5rem,4rem);
+    /* padding-left: 10px; */
     color: #ffffff;
 } 
 
@@ -108,8 +108,8 @@ h3{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 4rem 2rem;
-    margin-top: 20vh;
-    padding-bottom: 20vh;
+    /* margin-top: 20vh; */
+    /* padding-bottom: 20vh; */
     background-color: rgba(131, 134, 154, 0.05);
  } 
 
